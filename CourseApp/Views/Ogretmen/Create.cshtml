@@ -1,0 +1,36 @@
+﻿@model EntityLayer.Concrete.Ogretmen
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Öğretmen Ekle</h2>
+<hr />
+<br />
+
+<form asp-controller="Ogretmen" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="OgretmenAdi" class="form-label">Öğretmen Adı</label>
+        <input asp-for="OgretmenAdi" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="OgretmenSoyadi" class="form-label">Öğretmen Soyadı</label>
+        <input asp-for="OgretmenSoyadi" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Eposta" class="form-label">E-posta</label>
+        <input asp-for="Eposta" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Telefon" class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BaslamaTarihi" class="form-label">Başlama Tarihi</label>
+        <input asp-for="BaslamaTarihi" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>
+

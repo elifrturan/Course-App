@@ -1,0 +1,34 @@
+﻿@model CourseApp.Models.KursViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kurs Güncelleme</h2>
+<hr />
+<br />
+
+<div class="row">
+    <div class="col-8">
+        <form asp-controller="Kurs" asp-action="Edit" method="post">
+            <input type="hidden" asp-for="KursID" />
+            <div class="mb-3">
+                <label asp-for="Baslik" class="form-label">Başlık</label>
+                <input asp-for="Baslik" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="OgretmenID" class="form-label">Öğretmen</label>
+                <select asp-for="OgretmenID" asp-items="ViewBag.Ogretmenler" class="form-select">
+                    <option value="">Seçiniz</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Kaydet</button>
+        </form>
+    </div>
+</div>
+
+
+

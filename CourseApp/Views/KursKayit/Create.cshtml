@@ -1,0 +1,28 @@
+﻿@model EntityLayer.Concrete.KursKayit
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Öğrenci Ekle</h2>
+<hr />
+<br />
+
+<form asp-controller="KursKayit" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="OgrenciID" class="form-label">Öğrenci</label>
+        <select asp-for="OgrenciID" asp-items="ViewBag.Ogrenciler" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="KursID" class="form-label">Kurs</label>
+        <select asp-for="KursID" asp-items="ViewBag.Kurslar" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>
+

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EntityLayer.Concrete.KursKayit>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kurs Kayıtları Listesi</h2>
+<a href="/KursKayit/Create" class="btn btn-outline-info">Kurs Kaydı Ekle</a>
+<hr />
+<br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="width: 150px;">Kayıt ID</th>
+            <th>Öğrenci Ad</th>
+            <th>Öğrenci Soyad</th>
+            <th>Kurs Başlığı</th>
+            <th style="width: 150px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var kursKayit in Model)
+        {
+            <tr>
+                <td>@kursKayit.KursID</td>
+                <td>@kursKayit.Ogrenci.OgrenciAd</td>
+                <td>@kursKayit.Ogrenci.OgrenciSoyad</td>
+                <td>@kursKayit.Kurs.Baslik</td>
+                <td>
+                    <a asp-controller="KursKayit" asp-action="Delete" asp-route-id="@kursKayit.KayitID" class="btn btn-sm btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

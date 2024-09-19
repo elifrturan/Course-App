@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Ogretmen>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Öğretmen Listesi</h2>
+<a href="/Ogretmen/Create" class="btn btn-outline-info">Öğretmen Ekle</a>
+<hr />
+<br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="width: 150px;">Öğretmen ID</th>
+            <th>Öğretmen Ad</th>
+            <th>Öğretmen Soyad</th>
+            <th>Başlama Tarihi</th>
+            <th style="width: 150px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ogretmen in Model)
+        {
+            <tr>
+                <td>@ogretmen.OgretmenID</td>
+                <td>@ogretmen.OgretmenAdi</td>
+                <td>@ogretmen.OgretmenSoyadi</td>
+                <td>@ogretmen.BaslamaTarihi</td>
+                <td>
+                    <a asp-controller="Ogretmen" asp-action="Edit" asp-route-id="@ogretmen.OgretmenID" class="btn btn-sm btn-primary">Düzenle</a>
+                    <a asp-controller="Ogretmen" asp-action="Delete" asp-route-id="@ogretmen.OgretmenID" class="btn btn-sm btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

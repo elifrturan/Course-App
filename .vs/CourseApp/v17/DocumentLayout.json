@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|c:\\users\\asus\\desktop\\staj\\courseapp\\courseapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|c:\\users\\asus\\desktop\\staj\\courseapp\\courseapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|c:\\users\\asus\\desktop\\staj\\courseapp\\courseapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|c:\\users\\asus\\desktop\\staj\\courseapp\\courseapp\\models\\kursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\models\\kursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|c:\\users\\asus\\desktop\\staj\\courseapp\\courseapp\\views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B90F2D2-5746-42FF-90A5-EB911A05A347}|CourseApp\\CourseApp.csproj|solutionrelative:courseapp\\views\\kurs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CourseApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwDcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T11:09:13.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KursViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Models\\KursViewModel.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Models\\KursViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Models\\KursViewModel.cs",
+              "RelativeToolTip": "CourseApp\\Models\\KursViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:18:45.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CourseApp\\Views\\Kurs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Kurs\\Edit.cshtml",
+              "RelativeToolTip": "CourseApp\\Views\\Kurs\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T10:14:56.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KursController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Controllers\\KursController.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Controllers\\KursController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Controllers\\KursController.cs",
+              "RelativeToolTip": "CourseApp\\Controllers\\KursController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswFEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T10:14:36.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CourseApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\staj\\CourseApp\\CourseApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CourseApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T21:20:44.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

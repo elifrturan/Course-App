@@ -1,0 +1,26 @@
+﻿@model EntityLayer.Concrete.Ogretmen
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="d-flex flex-column mb-3">
+        <div>
+            <h1 class="mt-3 text-center">
+                <b>@Model.OgretmenAdi @Model.OgretmenSoyadi</b> isimli öğretmeni silmek istediğinizden emin misiniz?
+            </h1>
+        </div>
+
+        <div class="text-center">
+            <form asp-action="Delete" method="post">
+                <input type="hidden" name="id" value="@Model.OgretmenID" />
+                <button type="submit" class="btn btn-danger">Evet</button>
+                <a asp-action="Index" class="btn btn-primary">Hayır</a>
+            </form>
+        </div>
+    </div>
+
+</div>
+
